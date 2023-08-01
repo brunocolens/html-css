@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor. </p>
+    <!-- <video src="media/meu-video.mp4" width="500"></video> -->
+    <video width="560" poster="imagens/limoes-capa.png" controls autoplay loop>
+        <source src="media/meu-video.webm" type="video/webm">
+        <source src="media/meu-video.mp4" type="video/mp4">
+        <source src="media/meu-video.ogv" type="video/ogg">
+        <!-- Formatos compatíveis MP4 M4V WEBM OGV -->
+        <p>Infelizmente seu navegador não conseguiu carregar o vídeo.</p>
+    </video>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TlWYgGyNnJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!-- Entrar na plataforma de vídeo (Youtube) clicar em compartilhar e depois em incorporar e copiar o código e colar aqui -->
+
+    <h1>Inserindo vídeos do Vímeo</h1>
+    <iframe src="https://player.vimeo.com/video/783455041?h=aeff27094b&autoplay=1&loop=1&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <p><a href="https://vimeo.com/783455041">Ousmane (Interactive)</a> from <a href="https://vimeo.com/spiraquebec">SPIRA</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    <!-- Entrar na plataforma de vídeo (Vímeo) clicar em compartilhar e copiar código em incorporar e colar aqui -->
+</body>
+</html>
